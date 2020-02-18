@@ -1212,6 +1212,13 @@ input, select, textarea {
 			display: block;
 		}
 
+	/* Project container styles */
+	.project-container {
+		margin:10% 0;
+		border-top:2px dashed white;
+		padding:3%;
+	}
+
 		@media screen and (max-width: 1680px) {
 
 			#wrapper {
@@ -1233,7 +1240,7 @@ input, select, textarea {
 			#wrapper {
 				padding: 1rem;
 			}
-
+		
 		}
 
 /* Header */
@@ -1420,6 +1427,16 @@ input, select, textarea {
 				padding-top: 0;
 				padding-bottom: 0;
 				opacity: 0;
+			}
+
+			/* Header container styles */
+			.header-container {
+				display:flex;
+				justify-content: space-around;
+			}
+			.profile-image {
+				width:20%;
+				border-radius:2rem;
 			}
 
 		@media screen and (max-width: 980px) {
